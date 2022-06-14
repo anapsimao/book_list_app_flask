@@ -19,11 +19,11 @@
                 </tr>
             </thead>
             <tbody>
-            {% for book in books %}
+            {% for game in games %}
                 <tr>
-                    <td>{{book.name}}</td>
-                    <td>{{book.summary}}</td>
-                    <td>{{book.year}}</td>
+                    <td>{{game.name}}</td>
+                    <td>{{game.category}}</td>
+                    <td>{{game.year}}</td>
                 </tr>
             {% endfor %}
             </tbody>
